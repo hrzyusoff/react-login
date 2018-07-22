@@ -1,0 +1,110 @@
+/* Black Font  */
+
+@font-face {
+    font-family: 'Nunito-Black';
+    src: url('/assets/fonts/Nunito/Nunito-Black.ttf') format('truetype');
+}
+
+/* Bold Font */
+
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url('/assets/fonts/Nunito/Nunito-Bold.ttf') format('truetype');
+}
+
+/* Regular Font */
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: url('/assets/fonts/Nunito/Nunito-Regular.ttf') format('truetype');
+}
+
+/* Light Font */
+
+@font-face {
+    font-family: 'Nunito-Light';
+    src: url('/assets/fonts/Nunito/Nunito-Light.ttf') format('truetype');
+}
+
+.main-container {
+    background-color: #31353F;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+.custom-container {
+    height: 100vh;
+}
+
+/* Fontawesome sizing  */
+
+i {
+    font-size: 30px;
+    color: #fff;
+}
+
+/* Paragraph */
+
+p {
+    margin-bottom: 0rem;
+}
+
+/* SIGN UP Button */
+
+.btn-primary {
+    background-color: #202E53;
+    border: #202E53;
+    border-radius: 24px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/* Custom Card */
+
+.card-custom {
+    border-radius: 10px;
+    border: #499069;
+    background-color: #499069;
+    padding: 70px 10px 70px 10px;
+}
+
+.card-body {
+    width: 350px;
+}
+
+/* H3 in Custom Card*/
+
+.card-body-title {
+    color: #fff;
+    margin-bottom: 70px;
+}
+
+/* (or try with) word and Custom Input Font */
+
+.social-media-desc,
+.input-label {
+    color: #97BBAA;
+}
+
+/* (or try with) word  */
+
+.social-media-desc>label {
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+}
+
+/* Custom Input*/
+
+input,
+input:focus {
+    border: #357251;
+    background-color: #357251;
+    color: #FFF;
+    font-family: 'Nunito-Light';
+}
+
+/* Sign Up Button,(or try with) word and social media items */
+
+.bottom-container {
+    margin-top: 50px;
+}
