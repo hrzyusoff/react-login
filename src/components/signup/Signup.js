@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-import { Redirect } from 'react-router-dom'
-import { Route, Link } from 'react-router-dom'
-import './Login.css';
+import '../login/Login.css';
 
-class Login extends Component {
+class Signup extends Component {
     render() {
         return (
             <div className="main-container">
                 <div className="d-flex justify-content-center align-items-center custom-container">
                     <div className="d-flex card card-custom">
                         <div className="card-body">
-                            <h3 className="card-body-title text-center">REACT LOGIN</h3>
+                            <h3 className="card-body-title text-center">REACT SIGNUP</h3>
                             <div className="form-group">
                                 <label for="usermail" className="input-label">Email</label>
                                 <input type="email" className="form-control" id="usermail"/>
@@ -21,10 +19,7 @@ class Login extends Component {
                             </div>
                             <div className="d-flex flex-column bottom-container">
                                 <div className="sign-up-btn-container text-center">
-                                    <button type="submit" className="btn btn-primary">LOGIN</button>
-                                    <Link to="/signup" className="btn btn-link text-secondary">
-                                        Not a member ? Sign up <span className="text-secondary">here</span>
-                                    </Link>                                    
+                                    <button type="submit" className="btn btn-primary">SIGN UP</button>
                                 </div>
                             </div>
                         </div>
@@ -35,4 +30,4 @@ class Login extends Component {
     }
 }
 
-export default Login;
+export default Signup;
