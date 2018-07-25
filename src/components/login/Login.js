@@ -8,18 +8,18 @@ class Login extends Component {
                 <div className="d-flex justify-content-center align-items-center custom-container">
                     <div className="d-flex card card-custom">
                         <div className="card-body">
-                            <h3 className="card-body-title text-center">Sign Up</h3>
+                            <h3 className="card-body-title text-center">REACT LOGIN</h3>
                             <div className="form-group">
-                                <label for="usermail" className="input-label">EMAIL</label>
+                                <label for="usermail" className="input-label">Email</label>
                                 <input type="email" className="form-control" id="usermail"/>
                             </div>
                             <div class="form-group">
-                                <label for="userpassword" className="input-label">PASSWORD</label>
+                                <label for="userpassword" className="input-label">Password</label>
                                 <input type="password" className="form-control" id="userpassword"/>
                             </div>
                             <div className="d-flex flex-column bottom-container">
                                 <div className="sign-up-btn-container text-center">
-                                    <button type="submit" className="btn btn-primary">SIGN UP</button>
+                                    <button type="submit" className="btn btn-primary">LOGIN</button>
                                 </div>
                             </div>
                         </div>

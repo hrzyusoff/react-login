@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Nunito', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Nunito:400,700')
+}
+
 body {
   margin: 0;
   padding: 0;
