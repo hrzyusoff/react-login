@@ -7,10 +7,14 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <Router>
-        <Route path={'login'} component={Login}/>
-        <Route path={'home'} component={Home}/>
-      </Router>
+    <div>
+      <Route path='/login' render={() => <Login/>}/>
+      <Route path='/home' component={Home}/>
+    </div>
+      // <Router>
+      //   <Route path={'login'} component={Login}/>
+      //   <Route path={'home'} component={Home}/>
+      // </Router>
       // <div className="App">
       //   <header className="App-header">
       //     <img src={logo} className="App-logo" alt="logo" />
