@@ -8,7 +8,7 @@ class Signup extends Component {
                 <div className="d-flex justify-content-center align-items-center custom-container">
                     <div className="d-flex card card-custom">
                         <div className="card-body">
-                            <h3 className="card-body-title text-center">REACT SIGNUP</h3>
+                            <h3 className="card-body-title text-center">SIGNUP</h3>
                             <div className="form-group">
                                 <label for="usermail" className="input-label">Email</label>
                                 <input type="email" className="form-control" id="usermail"/>

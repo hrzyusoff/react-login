@@ -9,8 +9,8 @@ class App extends Component {
   render() {
     return (
     <div>
-      <Route path='/login' render={() => <Login/>}/>
       <Route exact path='/' component={Home}/>
+      <Route path='/login' render={() => <Login/>}/>
       <Route path='/signup' render={() => <Signup/>} />      
     </div>
       // <Router>

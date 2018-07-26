@@ -8,3 +8,13 @@ body {
   padding: 0;
   font-family: 'Nunito', sans-serif;
 }
+
+.main-container {
+  background-color: #fff;
+  /* background-color: #31353F; */
+  height: 100vh;
+}
+
+.custom-container {
+  height: 100vh;
+}
