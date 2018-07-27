@@ -6,11 +6,13 @@ import Signup from './components/signup/Signup';
 import './App.css';
 
 class App extends Component {
+
   render() {
     return (
     <div>
-      <Route exact path='/' component={Home}/>
-      <Route path='/login' render={() => <Login/>}/>
+      {/* <Route exact path='/' component={Home}/> */}
+      <Route exact path='/' component={Login} />
+      {/* <Route path='/login' render={() => <Login/>}/> */}
       <Route path='/signup' render={() => <Signup/>} />      
     </div>
       // <Router>
