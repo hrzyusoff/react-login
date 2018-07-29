@@ -37,7 +37,7 @@ class Home extends Component {
                         <h3>You are logged in React Social Apps</h3>
                         <div className="sign-up-btn-container text-center">
                             <button type="submit" className="btn btn-primary" onClick={this.logout}>
-                                <Link to="#">
+                                <Link to="/">
                                     LOGOUT
                                 </Link>
                             </button>

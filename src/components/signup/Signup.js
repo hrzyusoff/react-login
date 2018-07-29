@@ -75,6 +75,9 @@ class Signup extends Component {
                                 <div className="d-flex flex-column bottom-container">
                                     <div className="sign-up-btn-container text-center">
                                         <button type="submit" className="btn btn-primary" onClick={this.handleSubmit}>SIGN UP</button>
+                                        <Link to="/login" className="btn btn-link text-secondary">
+                                            Already a member ? Login <span className="text-secondary">here</span>
+                                        </Link>     
                                     </div>
                                 </div>
                             </div>
