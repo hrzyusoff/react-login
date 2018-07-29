@@ -1,0 +1,29 @@
+/* Sign up Button */
+.btn-primary {
+    background-color: #499069;
+    border: none;
+    border-radius: 24px;
+    font-weight: 900;
+}
+
+.btn-primary:hover {
+    background-color: #326348;
+}
+
+.btn-primary:focus,
+.btn-primary:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+button > a {
+    color: #fff;
+    /* padding: 12px 20px; */
+    /* border: 1px solid #fff; */
+}
+
+button > a:hover {
+    color: #fff;
+    text-decoration: none;
+}
