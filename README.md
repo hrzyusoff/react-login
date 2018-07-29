@@ -15,7 +15,7 @@ npm install
 * --save passport passport-local bcryptjs
 * connect-mongo
 
-## Hot Reload Server
+### Hot Reload Server
 * In package.json add in scripts:
 
    "api": "nodemon ./server/server.js",
