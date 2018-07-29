@@ -17,8 +17,7 @@ npm install
 * connect-mongo
 
 ## Hot Reload Server
-* In package.json add
-* In scripts:
+* In package.json add in scripts:
 
    "api": "nodemon ./server/server.js",
    
