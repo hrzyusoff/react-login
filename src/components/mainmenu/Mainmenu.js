@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect, Route, Link } from 'react-router-dom';
 import axios from 'axios';
-import './Mainmenu.css';
+// import './Mainmenu.css';
 
 class Home extends Component {
     constructor() {
