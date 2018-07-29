@@ -3,7 +3,7 @@
 This is simple login and signup for React.
 
 ### Problems
-* No notification for every succeess login and signup but it can be seen through the console
+* No notification implementation for every succeess login and signup but it can be seen through the console (WIP)
 
 ### Installations
 npm install
