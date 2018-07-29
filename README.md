@@ -16,3 +16,6 @@ npm install
 * --save passport passport-local bcryptjs
 * connect-mongo
 * node server/server.js (to start server)
+
+### Source of Reference
+https://medium.com/@brendt_bly/simple-mern-passport-app-tutorial-4aec2105e367
