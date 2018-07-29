@@ -33,7 +33,7 @@ class App extends Component {
       console.log('Getting user response: ')
       console.log(response.data)
       if (response.data.user) {
-        console.log('Get User: This user already saved in the server session: ')
+        console.log('Get User: This user already saved in the server session')
         this.setState({
           loggedIn: true,
           username: response.data.user.username

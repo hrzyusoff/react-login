@@ -25,8 +25,7 @@ class Login extends Component {
 
     handleSubmit(event) {
         event.preventDefault()
-        console.log('handleSubmit')
-
+        // console.log('handleSubmit')
         axios
             .post('/user/login', {
                 username: this.state.username,
