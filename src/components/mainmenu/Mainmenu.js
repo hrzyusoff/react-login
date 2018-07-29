@@ -14,7 +14,7 @@ class Home extends Component {
             <div className="main-container">
                 <div className="d-flex justify-content-center align-items-center custom-container">
                     <div className="">
-                        <h3>`Welcome $username to React Social Apps`</h3>
+                        <h3>You are logged in React Apps</h3>
                     </div>
                 </div>
             </div>
