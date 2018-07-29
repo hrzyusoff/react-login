@@ -3,6 +3,7 @@
 This is simple login and signup for React.
 
 ### Problems
+* Facing internal server error (500) while logout
 * No notification implementation for every succeess login and signup but it can be seen through the console (WIP)
 
 ### Installations
