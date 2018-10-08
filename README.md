@@ -22,6 +22,3 @@ npm install
    "api": "nodemon ./server/server.js",
    
    "dev": "concurrently \"react-scripts start\" \"nodemon server/server.js\""
-
-### Source of Reference
-https://medium.com/@brendt_bly/simple-mern-passport-app-tutorial-4aec2105e367
